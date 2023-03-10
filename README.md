@@ -1,2 +1,2 @@
 # Landing-Page
-CSS practice project for a landing page
+CSS and HTML practice project for a landing page
