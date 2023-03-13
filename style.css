@@ -1,4 +1,11 @@
 
+body{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
 /* FIRST SECTION */
 
 .headerContainer {
@@ -6,12 +13,25 @@
     justify-content: space-between;
     background: #1f2937;
     align-items: center;
+    padding: 10px 50px;
+    margin: 0px;
+}
+
+.headerContainer img {
+    width: 50px;
     padding: 10px;
+    filter: grayscale(100%);
 }
 
 .header {
     font-size: 24px;
     color: #f9faf8;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
 }
 
 ul{
@@ -33,7 +53,7 @@ a{
     background: #1f2937;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding: 80px 300px 80px 300px
 }
 
 .subContainer1{
@@ -58,11 +78,24 @@ button{
     color: #f9faf8;
     background-color: #3882f9;
     max-width: 100px;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: 700;
 }
 
 img{
     max-width: 450px;
+
+
 }
+
+.infoBox img {
+    border: #3882f9;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+}
+
 
 /* THIRD SECTION */
 
@@ -84,13 +117,18 @@ img{
     justify-content: center;
     align-content: center;
     padding: 20px;
-    gap: 20px;
+    gap: 50px;
 }
 
 .infoBox {
     display: flex;
     flex-direction: column;
     max-width: 200px;
+    gap: 20px;
+}
+
+.subtext1{
+    text-align: center;
 }
 
 /* FOURTH SECTION */
@@ -104,13 +142,66 @@ img{
 
 .subContainer3 {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    margin-right: 30%;
-    margin-left: 30%;
     padding: 100px;
     gap: 50px;
 }
 
+.text1{
+    font-style: italic;
+}
+
 .author {
     align-self: flex-end;
+}
+
+/* FIFTH SECTION */
+
+.botContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subContainer4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3882f6;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 50px;
+    margin: 40px;
+    padding: 20px;
+}
+
+.subContainer5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text2{
+    color: #f9faf8;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.text3{
+    color: #f9faf8;
+}
+
+/* SIXTH SECTION */
+
+.footer{
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.copyright{
+    color: #f9faf8;
 }
